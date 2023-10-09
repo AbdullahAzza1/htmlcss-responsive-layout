@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.navbar, .lista-navbar{
+    background-color: #0084FD;
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+}
+.lista-navbar{
+    display: flex;
+}
+.sezioni{
+    height: 70vh;
+}
+.container{
+    width: 60%;
+    margin: 0 auto; 
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.boh{
+    display: flex;
+}
+.card-app{
+    background-color: #B5DDFF;
+    width: 60%;
+    margin-right: 5%;
+}
+.img-phone{
+    width: 50%;
+}
+.card-code{
+    background-color: #B5DDFF;
+    width: 40%;
+}
+.cards{
+    display: flex;
+    
+}
+.card-brand{
+    width: calc(100% / 3);
+    background-color: #B5DDFF;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+.sezioni-plan{
+    background-color: #9792E4; 
+    height: 75vh;  
+    display: flex;
+    align-items: flex-end;
+}
+.container-plan{
+    display: flex;
+    width: 60%;
+    margin: 0 auto; 
+    margin-bottom: 2%;
+}
+.plan{
+    width: 50%;
+}
+.white-card{
+    width: 50%;
+    background-color: white;
+}
+.sezioni-partners{
+    height: 100vh; 
+}
+.container-partners{
+    width: 60%;
+    margin: 0 auto; 
+    margin-bottom: 2%;
+    margin-top: 3%;
+    text-align: center;
+}
+.partners{
+    background-color: #9792E4;
+    display: flex;
+    margin-bottom: 5%;
+}
+.img{
+    width: 30%;
+}
+.sezioni-pro{
+    height: 75vh;
+    background-color: #9792E4;
+}
+.container-pro{
+    width: 60%;
+    margin: 0 auto; 
+    margin-bottom: 2%;
+    margin-top: 3%;
+    text-align: center;
+}
+.cards-ben{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card-ben{
+    width: calc(85% / 3);
+    background-color: white;
+    margin: 1%;
+}
+.sezioni-user{
+    height: 70vh;
+}
+.container-user{
+    width: 60%;
+    margin: 0 auto; 
+    margin-top: 2%;
+    margin-bottom: 5%;
+    display: flex;
+}
+.text-user{
+    width: 60%;
+}
+.image-user{
+    width: 40%;
+}
+.sezioni-buy{
+    height: 50vh;
+    background-color: #9792E4;
+}
+.container-buy{
+    width: 60%;
+    margin: 0 auto; 
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.sezioni-footer{
+    background-color: #333333;
+}
+.container-footer{
+    width: 60%;
+    margin: 0 auto; 
+    text-align: center;
+}
