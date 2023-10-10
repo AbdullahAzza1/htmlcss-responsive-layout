@@ -231,3 +231,39 @@
     color: white;
     padding: 5%;
 }
+@media screen and (max-width: 768px){
+     .sezioni{
+        height: 100%;
+     }
+     .sezioni-plan{
+       height: 100%;  
+     }
+     .container-plan{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+     }
+     .sezioni-partners{
+        height: 100%;
+     }
+     .sezioni-pro{
+        height: 100%;
+     }
+     .container-pro{
+        width: calc(100% / 2);
+     }
+     
+     .sezioni-user{
+        height: 100%;
+     }
+}
+@media screen and (max-width: 480px){
+    .sezioni{
+        height: 100%;
+    }
+    .sezioni-plan{
+        display: flex;
+        flex-direction: column;
+        
+    }
+} 
