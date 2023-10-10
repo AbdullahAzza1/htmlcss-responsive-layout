@@ -13,8 +13,17 @@
 .lista-navbar{
     display: flex;
 }
+.text-nav{
+    margin-right: 15%;
+    color: white;
+}
+.pulsante{
+    padding: 0 18px;
+    border-radius: 30%;
+    border-style: none;
+}
 .sezioni{
-    height: 70vh;
+    height: 97vh;
 }
 .container{
     width: 60%;
@@ -27,18 +36,31 @@
 }
 .card-app{
     background-color: #B5DDFF;
-    width: 60%;
+    width: 58%;
     margin-right: 5%;
+    display: flex;
+    padding: 3%;
+    border-radius: 5%;
+}
+.demo-app{
+    margin: 5% 0 5%;;
 }
 .img-phone{
-    width: 50%;
+    width: 109%;
 }
 .card-code{
     background-color: #B5DDFF;
     width: 40%;
+    text-align: center;
+    padding: 3%;
+    border-radius: 5%;
+}
+.clean-code{
+    font-size: 12vh;
 }
 .cards{
     display: flex;
+    text-align: center;
     
 }
 .card-brand{
@@ -46,10 +68,12 @@
     background-color: #B5DDFF;
     margin-right: 5%;
     margin-top: 5%;
+    padding: 3%;
+    border-radius: 5%;
 }
 .sezioni-plan{
     background-color: #9792E4; 
-    height: 75vh;  
+    height: 90vh;  
     display: flex;
     align-items: flex-end;
 }
@@ -62,9 +86,25 @@
 .plan{
     width: 50%;
 }
+.img-plan{
+    width: 83%;
+}
+.text-plan{
+    color: white;
+    margin: 5% 0 5%;
+}
 .white-card{
     width: 50%;
     background-color: white;
+    text-align: center;
+    padding: 5%;
+    border-radius: 24%;
+}
+.plan-img{
+    width: 65%;
+}
+.plan-text{
+    margin: 5% 0 5%;
 }
 .sezioni-partners{
     height: 100vh; 
@@ -76,16 +116,26 @@
     margin-top: 3%;
     text-align: center;
 }
+.text-part{
+    color: white;
+    margin: 5% 0 5%;
+}
+.titolo-part{
+    color: #9792E4;
+    margin: 3% 0 3%;
+}
 .partners{
     background-color: #9792E4;
     display: flex;
     margin-bottom: 5%;
+    border-radius: 5vh;
 }
 .img{
     width: 30%;
+    border-radius: 100%;
 }
 .sezioni-pro{
-    height: 75vh;
+    height: 90vh;
     background-color: #9792E4;
 }
 .container-pro{
@@ -101,9 +151,21 @@
     flex-wrap: wrap;
 }
 .card-ben{
-    width: calc(85% / 3);
+    width: calc(81% / 3);
     background-color: white;
     margin: 1%;
+    padding: 1%;
+    border-radius: 3vh;
+}
+.card-n{
+    color: #9792E4;
+    text-align: left;
+    font-size: 6vh;
+}
+.titolo-ben{
+    color: #9792E4;
+    margin: 2% 0 2%;
+    text-align: left;
 }
 .sezioni-user{
     height: 70vh;
@@ -115,14 +177,23 @@
     margin-bottom: 5%;
     display: flex;
 }
+.titolo-user{
+    color: #9792E4;
+}
 .text-user{
-    width: 60%;
+    width: 100%;
+    margin: 5% 0 5%;
+}
+.user{
+    text-align: center  ;
+    margin: 0 34px;
 }
 .image-user{
-    width: 40%;
+    width: 50%;
+    border-radius: 100%;
 }
 .sezioni-buy{
-    height: 50vh;
+    height: 54vh;
     background-color: #9792E4;
 }
 .container-buy{
@@ -132,6 +203,22 @@
     margin-bottom: 5%;
     text-align: center;
 }
+.buy-testo{
+    margin: 2% 0;
+}
+.pulsante-buy{
+    padding: 2% 5%;
+    background-color: white;
+    border: none;
+    border-radius: 2vh;
+}
+.text-buy{
+    font-size: 5vh;
+}
+.buy{
+    font-size: 11vh;
+    color: rgb(214, 199, 84);
+}
 .sezioni-footer{
     background-color: #333333;
 }
@@ -139,4 +226,8 @@
     width: 60%;
     margin: 0 auto; 
     text-align: center;
+}
+.text-footer{
+    color: white;
+    padding: 5%;
 }
